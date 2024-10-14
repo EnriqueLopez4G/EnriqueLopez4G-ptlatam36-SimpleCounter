@@ -1,0 +1,18 @@
+/* Sections.css */
+.sections {
+    background-color: rgb(0, 0, 0);
+}
+
+.section {
+    flex: 1; /* Cada sección ocupará un espacio igual */
+    color: white;
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+    border-right: 1px solid #444; /* Línea divisoria entre secciones */
+    font-size: 3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.section:last-child {
+    border-right: none; /* Quita la línea divisoria en la última sección */
+}
